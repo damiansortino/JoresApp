@@ -6,12 +6,12 @@
     <StackLayout Background="img/background.jpg">
 
 
-        <Frame BackgroundColor="#85586c" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#1f192f" Padding="24" CornerRadius="0">
             <Label Text="Dynamic Store" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
 
 
-        <Label Text="Jores Calzados" TextColor="#EE5D9B" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
+        <Label Text="Jores Calzados" TextColor="#2d6073" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
 
         <Label Text="Código del producto" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
         <SearchBar x:Name="barra_busqueda"
@@ -19,7 +19,7 @@
                    HorizontalOptions="Center"
                    VerticalOptions="StartAndExpand"
                    Keyboard="Numeric"
-                   BackgroundColor="#a45785"/>
+                   BackgroundColor="#65b8a6"/>
         <Label HorizontalOptions="Center" FontSize="Medium"/>
         <CollectionView x:Name="MyCollectionView">
             <CollectionView.ItemsLayout>
@@ -28,11 +28,11 @@
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame BackgroundColor="#e8acac"
+                    <Frame BackgroundColor="#b5e8c3"
                            Padding="10"
                            CornerRadius="10">
                         <StackLayout>
-                            <Label Text="{Binding nombre}" HorizontalOptions="Center" FontSize="Medium" TextColor="#85586c"/>
+                            <Label Text="{Binding nombre}" HorizontalOptions="Center" FontSize="Medium" TextColor="#f0f7da"/>
                             <Label Text="{Binding talle}" HorizontalOptions="Center" FontSize="Medium"/>
                             <Label Text="{Binding color}" HorizontalOptions="Center" FontSize="Medium"/>
                             <Label Text="{Binding marca}" HorizontalOptions="Center" FontSize="Medium"/>

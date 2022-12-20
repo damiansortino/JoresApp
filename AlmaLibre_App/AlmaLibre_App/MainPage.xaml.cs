@@ -2,19 +2,15 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace AlmaLibre_App
 {
     public partial class MainPage : ContentPage
     {
-        private string urlservicio = "http://192.168.1.58/JoresCalzados/Api/Producto/";
-        
+        private string urlservicio = "http://192.168.0.100/JoresWS/api/producto/";
+
         public MainPage()
         {
             InitializeComponent();

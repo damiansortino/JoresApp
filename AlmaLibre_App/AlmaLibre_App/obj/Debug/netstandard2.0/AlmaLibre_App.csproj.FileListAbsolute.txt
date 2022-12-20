@@ -32,7 +32,6 @@ D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\bin\Debug\netstandard2.0\AlmaLibre_A
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\bin\Debug\netstandard2.0\AlmaLibre_App.dll
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\bin\Debug\netstandard2.0\ref\AlmaLibre_App.dll
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\bin\Debug\netstandard2.0\AlmaLibre_App.pdb
-D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\AlmaLibre_App.csproj.AssemblyReference.cache
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\AlmaLibre_App.GeneratedMSBuildEditorConfig.editorconfig
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -43,3 +42,4 @@ D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\XamlC.stamp
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\AlmaLibre_App.dll
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\ref\AlmaLibre_App.dll
 D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\AlmaLibre_App.pdb
+D:\GIT\JoresApp\AlmaLibre_App\AlmaLibre_App\obj\Debug\netstandard2.0\AlmaLibre_App.csproj.AssemblyReference.cache

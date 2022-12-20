@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AlmaLibre_App.Models
+﻿namespace AlmaLibre_App.Models
 {
     public class Producto
     {
