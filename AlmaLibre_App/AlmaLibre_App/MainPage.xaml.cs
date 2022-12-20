@@ -13,7 +13,7 @@ namespace AlmaLibre_App
 {
     public partial class MainPage : ContentPage
     {
-        private string urlservicio = "http://192.168.77.106/AlmaLibre/Api/Producto/";
+        private string urlservicio = "http://192.168.1.58/JoresCalzados/Api/Producto/";
         
         public MainPage()
         {

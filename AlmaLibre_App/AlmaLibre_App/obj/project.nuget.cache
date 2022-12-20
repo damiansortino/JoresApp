@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/aXVqj3fjfRF/vpETgZgbUtPJjr4iS9xzEbNdllzGeKprpUQwjYn4vg4mFWXMQV7jrWIOzPpkWRj7mU4xwrUg==",
+  "dgSpecHash": "nkTvh0C5r9RCfFPAyBenrIU+NUAilGgwedqxrliwvbV7Xe4h8e2mAJOVglnsNp6xR2RBXD/7Tf4PKA/Xc2Cnhg==",
   "success": true,
-  "projectFilePath": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
+  "projectFilePath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

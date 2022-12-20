@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G4kJeFobpKkTlaSHmJdgGFhLK7AI4uxIG2DfoGl223y54KVa/ta6mWOVC1uM0lgTfLDnE5tea5TWhUff8sOoVQ==",
+  "dgSpecHash": "oIw8wXh5iKiXmPqYGYphm0dVq0ZYdVdL/0BF6XWTBxudTmfdMhPZfachpe5Fw29BWqd39jM5uKf0EX8tSTV0mg==",
   "success": true,
-  "projectFilePath": "D:\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
+  "projectFilePath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

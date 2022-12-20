@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj": {}
+    "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj": {}
   },
   "projects": {
-    "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj": {
+    "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
+        "projectUniqueName": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
         "projectName": "AlmaLibre_App.Android",
-        "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
+        "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\obj\\",
+        "outputPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
-                "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
+              "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
+                "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
+    "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
+        "projectUniqueName": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
         "projectName": "AlmaLibre_App",
-        "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
+        "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "D:\\AlmaLibre_App\\AlmaLibre_App\\obj\\",
+        "outputPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

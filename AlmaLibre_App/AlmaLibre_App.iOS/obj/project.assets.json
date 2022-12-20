@@ -1064,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
+      "projectUniqueName": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
       "projectName": "AlmaLibre_App.iOS",
-      "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
+      "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.iOS\\AlmaLibre_App.iOS.csproj",
       "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-      "outputPath": "D:\\AlmaLibre_App\\AlmaLibre_App.iOS\\obj\\",
+      "outputPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1089,8 +1089,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
-              "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
+            "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
+              "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
             }
           }
         }

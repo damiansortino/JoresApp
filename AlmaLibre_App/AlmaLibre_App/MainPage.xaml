@@ -11,7 +11,7 @@
         </Frame>
 
 
-        <Label Text="Alma Libre" TextColor="#EE5D9B" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
+        <Label Text="Jores Calzados" TextColor="#EE5D9B" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
 
         <Label Text="Código del producto" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
         <SearchBar x:Name="barra_busqueda"

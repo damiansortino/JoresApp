@@ -2185,11 +2185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
+      "projectUniqueName": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
       "projectName": "AlmaLibre_App.Android",
-      "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
+      "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\AlmaLibre_App.Android.csproj",
       "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-      "outputPath": "D:\\AlmaLibre_App\\AlmaLibre_App.Android\\obj\\",
+      "outputPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2210,8 +2210,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
-              "projectPath": "D:\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
+            "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj": {
+              "projectPath": "D:\\GIT\\JoresApp\\AlmaLibre_App\\AlmaLibre_App\\AlmaLibre_App.csproj"
             }
           }
         }
