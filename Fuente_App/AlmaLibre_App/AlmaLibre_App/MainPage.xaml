@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlmaLibre_App.MainPage">
+
+    <StackLayout Background="img/background.jpg">
+
+
+        <Frame BackgroundColor="#85586c" Padding="24" CornerRadius="0">
+            <Label Text="Dynamic Store" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+        <Label Text="Alma Libre" TextColor="#EE5D9B" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
+
+        <Label Text="Código del producto" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
+        <SearchBar x:Name="barra_busqueda"
+                   SearchButtonPressed="barra_busqueda_SearchButtonPressed"
+                   HorizontalOptions="Center"
+                   VerticalOptions="StartAndExpand"
+                   Keyboard="Numeric"
+                   BackgroundColor="#a45785"/>
+        <Label HorizontalOptions="Center" FontSize="Medium"/>
+        <CollectionView x:Name="MyCollectionView">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"
+                                   ItemSpacing="3"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="#e8acac"
+                           Padding="10"
+                           CornerRadius="10">
+                        <StackLayout>
+                            <Label Text="{Binding nombre}" HorizontalOptions="Center" FontSize="Medium" TextColor="#85586c"/>
+                            <Label Text="{Binding talle}" HorizontalOptions="Center" FontSize="Medium"/>
+                            <Label Text="{Binding color}" HorizontalOptions="Center" FontSize="Medium"/>
+                            <Label Text="{Binding marca}" HorizontalOptions="Center" FontSize="Medium"/>
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition  Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label BackgroundColor="#a45785" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="0" Grid.Column="0" Text="$ " TextColor="White" />
+                                <Label BackgroundColor="#EE5D9B" HorizontalTextAlignment="Center" FontSize="Medium" Grid.Row="0" Grid.Column="1" Text="{Binding precio}" TextColor="White" />
+
+                            </Grid>
+
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>
+

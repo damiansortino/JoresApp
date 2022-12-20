@@ -1,0 +1,14 @@
+D:\AlmaLibre_App\AlmaLibre_App\bin\Release\netstandard2.0\AlmaLibre_App.deps.json
+D:\AlmaLibre_App\AlmaLibre_App\bin\Release\netstandard2.0\AlmaLibre_App.dll
+D:\AlmaLibre_App\AlmaLibre_App\bin\Release\netstandard2.0\ref\AlmaLibre_App.dll
+D:\AlmaLibre_App\AlmaLibre_App\bin\Release\netstandard2.0\AlmaLibre_App.pdb
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.AssemblyInfoInputs.cache
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.AssemblyInfo.cs
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.csproj.CoreCompileInputs.cache
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\XamlC.stamp
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.dll
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\ref\AlmaLibre_App.dll
+D:\AlmaLibre_App\AlmaLibre_App\obj\Release\netstandard2.0\AlmaLibre_App.pdb
