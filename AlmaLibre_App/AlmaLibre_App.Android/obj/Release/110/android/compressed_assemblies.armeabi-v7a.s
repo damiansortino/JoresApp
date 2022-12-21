@@ -388,7 +388,7 @@
 
 	/* 40: Xamarin.Google.Android.Material.dll */
 	/* uncompressed_file_size */
-	.long	232448
+	.long	232960
 	/* loaded */
 	.byte	0
 	/* data */
