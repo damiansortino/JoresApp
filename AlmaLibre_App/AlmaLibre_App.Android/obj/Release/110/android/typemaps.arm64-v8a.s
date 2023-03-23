@@ -130,26 +130,6 @@ map_modules:
 	.zero	4
 	.xword	0
 
-	/* module_uuid: 761e3254-b3ec-43ca-9ab6-fe14feea983b */
-	.byte	0x54, 0x32, 0x1e, 0x76, 0xec, 0xb3, 0xca, 0x43, 0x9a, 0xb6, 0xfe, 0x14, 0xfe, 0xea, 0x98, 0x3b
-	/* entry_count */
-	.word	1
-	/* duplicate_count */
-	.word	0
-	/* map */
-	.xword	module5_managed_to_java
-	/* duplicate_map */
-	.xword	0
-	/* assembly_name: AlmaLibre_App.Android */
-	.xword	.L.map_aname.5
-	/* image */
-	.xword	0
-	/* java_name_width */
-	.word	0
-	/* java_map */
-	.zero	4
-	.xword	0
-
 	/* module_uuid: d3f6905a-16a7-494d-a4a2-07ce62eca900 */
 	.byte	0x5a, 0x90, 0xf6, 0xd3, 0xa7, 0x16, 0x4d, 0x49, 0xa4, 0xa2, 0x07, 0xce, 0x62, 0xec, 0xa9, 0x00
 	/* entry_count */
@@ -157,11 +137,11 @@ map_modules:
 	/* duplicate_count */
 	.word	1
 	/* map */
-	.xword	module6_managed_to_java
+	.xword	module5_managed_to_java
 	/* duplicate_map */
-	.xword	module6_managed_to_java_duplicates
+	.xword	module5_managed_to_java_duplicates
 	/* assembly_name: Xamarin.AndroidX.CustomView */
-	.xword	.L.map_aname.6
+	.xword	.L.map_aname.5
 	/* image */
 	.xword	0
 	/* java_name_width */
@@ -177,11 +157,11 @@ map_modules:
 	/* duplicate_count */
 	.word	0
 	/* map */
-	.xword	module7_managed_to_java
+	.xword	module6_managed_to_java
 	/* duplicate_map */
 	.xword	0
 	/* assembly_name: Xamarin.AndroidX.AppCompat.AppCompatResources */
-	.xword	.L.map_aname.7
+	.xword	.L.map_aname.6
 	/* image */
 	.xword	0
 	/* java_name_width */
@@ -197,11 +177,11 @@ map_modules:
 	/* duplicate_count */
 	.word	4
 	/* map */
-	.xword	module8_managed_to_java
+	.xword	module7_managed_to_java
 	/* duplicate_map */
-	.xword	module8_managed_to_java_duplicates
+	.xword	module7_managed_to_java_duplicates
 	/* assembly_name: Xamarin.AndroidX.Loader */
-	.xword	.L.map_aname.8
+	.xword	.L.map_aname.7
 	/* image */
 	.xword	0
 	/* java_name_width */
@@ -217,10 +197,30 @@ map_modules:
 	/* duplicate_count */
 	.word	2
 	/* map */
+	.xword	module8_managed_to_java
+	/* duplicate_map */
+	.xword	module8_managed_to_java_duplicates
+	/* assembly_name: Xamarin.AndroidX.SavedState */
+	.xword	.L.map_aname.8
+	/* image */
+	.xword	0
+	/* java_name_width */
+	.word	0
+	/* java_map */
+	.zero	4
+	.xword	0
+
+	/* module_uuid: c263de7b-d776-4e93-b0fd-081973237d59 */
+	.byte	0x7b, 0xde, 0x63, 0xc2, 0x76, 0xd7, 0x93, 0x4e, 0xb0, 0xfd, 0x08, 0x19, 0x73, 0x23, 0x7d, 0x59
+	/* entry_count */
+	.word	1
+	/* duplicate_count */
+	.word	0
+	/* map */
 	.xword	module9_managed_to_java
 	/* duplicate_map */
-	.xword	module9_managed_to_java_duplicates
-	/* assembly_name: Xamarin.AndroidX.SavedState */
+	.xword	0
+	/* assembly_name: AlmaLibre_App.Android */
 	.xword	.L.map_aname.9
 	/* image */
 	.xword	0
@@ -4061,7 +4061,7 @@ map_java:
 
 	/* #352 */
 	/* module_index */
-	.word	7
+	.word	6
 	/* type_token_id */
 	.word	33554441
 	/* java_name */
@@ -4071,7 +4071,7 @@ map_java:
 
 	/* #353 */
 	/* module_index */
-	.word	7
+	.word	6
 	/* type_token_id */
 	.word	33554440
 	/* java_name */
@@ -5011,7 +5011,7 @@ map_java:
 
 	/* #447 */
 	/* module_index */
-	.word	6
+	.word	5
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -5271,7 +5271,7 @@ map_java:
 
 	/* #473 */
 	/* module_index */
-	.word	8
+	.word	7
 	/* type_token_id */
 	.word	33554452
 	/* java_name */
@@ -5281,7 +5281,7 @@ map_java:
 
 	/* #474 */
 	/* module_index */
-	.word	8
+	.word	7
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -5291,7 +5291,7 @@ map_java:
 
 	/* #475 */
 	/* module_index */
-	.word	8
+	.word	7
 	/* type_token_id */
 	.word	33554447
 	/* java_name */
@@ -5301,7 +5301,7 @@ map_java:
 
 	/* #476 */
 	/* module_index */
-	.word	8
+	.word	7
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -5311,7 +5311,7 @@ map_java:
 
 	/* #477 */
 	/* module_index */
-	.word	8
+	.word	7
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -5721,7 +5721,7 @@ map_java:
 
 	/* #518 */
 	/* module_index */
-	.word	9
+	.word	8
 	/* type_token_id */
 	.word	33554437
 	/* java_name */
@@ -5731,7 +5731,7 @@ map_java:
 
 	/* #519 */
 	/* module_index */
-	.word	9
+	.word	8
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -5741,7 +5741,7 @@ map_java:
 
 	/* #520 */
 	/* module_index */
-	.word	9
+	.word	8
 	/* type_token_id */
 	.word	0
 	/* java_name */
@@ -8221,7 +8221,7 @@ map_java:
 
 	/* #768 */
 	/* module_index */
-	.word	5
+	.word	9
 	/* type_token_id */
 	.word	33554434
 	/* java_name */

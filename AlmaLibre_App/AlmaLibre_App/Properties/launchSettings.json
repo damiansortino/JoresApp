@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AlmaLibre_App": {
+      "commandName": "Executable"
+    }
+  }
+}

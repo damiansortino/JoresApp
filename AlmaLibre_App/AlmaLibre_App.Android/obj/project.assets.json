@@ -980,7 +980,7 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "AlmaLibre_App/1.0.0": {
+      "JoresApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -989,10 +989,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AlmaLibre_App.dll": {}
+          "bin/placeholder/JoresApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AlmaLibre_App.dll": {}
+          "bin/placeholder/JoresApp.dll": {}
         }
       }
     }
@@ -2165,7 +2165,7 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "AlmaLibre_App/1.0.0": {
+    "JoresApp/1.0.0": {
       "type": "project",
       "path": "../AlmaLibre_App/AlmaLibre_App.csproj",
       "msbuildProject": "../AlmaLibre_App/AlmaLibre_App.csproj"
@@ -2173,7 +2173,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
-      "AlmaLibre_App >= 1.0.0",
+      "JoresApp >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]

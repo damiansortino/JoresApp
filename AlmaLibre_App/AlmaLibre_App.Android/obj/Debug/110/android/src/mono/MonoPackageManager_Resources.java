@@ -3,8 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "AlmaLibre_App.Android.dll" comes first in this list. */
 		"AlmaLibre_App.Android.dll",
-		"AlmaLibre_App.dll",
 		"FormsViewGroup.dll",
+		"JoresApp.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

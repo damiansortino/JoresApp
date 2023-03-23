@@ -35,27 +35,27 @@
 	.zero	3
 	.long	compressed_assembly_data_0
 
-	/* 1: AlmaLibre_App.dll */
-	/* uncompressed_file_size */
-	.long	18944
-	/* loaded */
-	.byte	0
-	/* data */
-	.zero	3
-	.long	compressed_assembly_data_1
-
-	/* 2: FormsViewGroup.dll */
+	/* 1: FormsViewGroup.dll */
 	/* uncompressed_file_size */
 	.long	15360
 	/* loaded */
 	.byte	0
 	/* data */
 	.zero	3
-	.long	compressed_assembly_data_2
+	.long	compressed_assembly_data_1
 
-	/* 3: Java.Interop.dll */
+	/* 2: Java.Interop.dll */
 	/* uncompressed_file_size */
 	.long	163840
+	/* loaded */
+	.byte	0
+	/* data */
+	.zero	3
+	.long	compressed_assembly_data_2
+
+	/* 3: JoresApp.dll */
+	/* uncompressed_file_size */
+	.long	18944
 	/* loaded */
 	.byte	0
 	/* data */

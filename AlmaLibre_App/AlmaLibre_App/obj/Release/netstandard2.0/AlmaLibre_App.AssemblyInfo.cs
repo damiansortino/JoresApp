@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AlmaLibre_App")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("JoresApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AlmaLibre_App")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AlmaLibre_App")]
+[assembly: System.Reflection.AssemblyProductAttribute("JoresApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("JoresApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

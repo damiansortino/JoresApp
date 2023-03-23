@@ -2,7 +2,7 @@
 	.section	.rodata.env.str.1,"aMS",@progbits,1
 	.type	.L.env.str.1, @object
 .L.env.str.1:
-	.asciz	"com.companyname.almalibre_app"
+	.asciz	"com.dynamicsoftware.jores_app"
 	.size	.L.env.str.1, 30
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
@@ -71,7 +71,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"386d8dd2-1142-4545-8a97-4f5cc2bc883a"
+	.asciz	"fdf5a0f5-ba83-436d-b29a-fd6cdc8656ce"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object
