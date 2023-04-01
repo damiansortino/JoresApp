@@ -3,61 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AlmaLibre_App.MainPage">
 
-    <StackLayout Background="img/background.jpg">
+    <StackLayout>
+        <StackLayout BackgroundColor="#2196F3" Padding="10,20,10,10">
+            <Label Text="Jores" FontSize="Large" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center" />
+            <Label Text="IP del servidor:" VerticalTextAlignment="Center" />
+            <Entry x:Name="ServerAddressEntry" Keyboard="Url"  Placeholder="0.0.0.0" WidthRequest="120" MaxLength="15" />
+        </StackLayout>
 
-
-        <Frame BackgroundColor="#1f192f" Padding="24" CornerRadius="0">
-            <Label Text="Dynamic Store" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-
-
-        <Label Text="Jores Calzados" TextColor="#2d6073" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
-
-        <Label Text="Código del producto" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
-        <SearchBar x:Name="barra_busqueda"
-                   SearchButtonPressed="barra_busqueda_SearchButtonPressed"
-                   HorizontalOptions="Center"
-                   VerticalOptions="StartAndExpand"
-                   Keyboard="Numeric"
-                   BackgroundColor="#65b8a6"/>
-        <Label HorizontalOptions="Center" FontSize="Medium"/>
-        <CollectionView x:Name="MyCollectionView">
-            <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical"
-                                   ItemSpacing="3"/>
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame BackgroundColor="#b5e8c3"
-                           Padding="10"
-                           CornerRadius="10">
-                        <StackLayout>
-                            <Label Text="{Binding nombre}" HorizontalOptions="Center" FontSize="Medium" TextColor="#f0f7da"/>
-                            <Label Text="{Binding talle}" HorizontalOptions="Center" FontSize="Medium"/>
-                            <Label Text="{Binding color}" HorizontalOptions="Center" FontSize="Medium"/>
-                            <Label Text="{Binding marca}" HorizontalOptions="Center" FontSize="Medium"/>
-
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-
-                                </Grid.RowDefinitions>
-
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition  Width="*" />
-                                </Grid.ColumnDefinitions>
-
-                                <Label BackgroundColor="#a45785" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="0" Grid.Column="0" Text="$ " TextColor="White" />
-                                <Label BackgroundColor="#EE5D9B" HorizontalTextAlignment="Center" FontSize="Medium" Grid.Row="0" Grid.Column="1" Text="{Binding precio}" TextColor="White" />
-
-                            </Grid>
-
-                        </StackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Entry x:Name="ProductCode" Placeholder="Introduce el código del producto" Keyboard="Numeric"/>
+            <Button Text="Buscar" Clicked="OnSearchClicked"/>
+            <TableView x:Name="ProductDetails" IsVisible="False">
+                <TableRoot>
+                    <TableSection>
+                        <TextCell Text="Nombre" Detail="{Binding nombre}" />
+                        <TextCell Text="Marca" Detail="{Binding marca}" />
+                        <TextCell Text="Talle" Detail="{Binding talle}" />
+                        <TextCell Text="Color" Detail="{Binding color}" />
+                        <TextCell Text="Precio" Detail="{Binding precio}" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
 
     </StackLayout>
 </ContentPage>
+

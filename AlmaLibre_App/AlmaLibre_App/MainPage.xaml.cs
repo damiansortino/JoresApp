@@ -5,44 +5,49 @@ using System.Collections.Generic;
 using System.Net.Http;
 using Xamarin.Forms;
 
+
 namespace AlmaLibre_App
 {
     public partial class MainPage : ContentPage
     {
-        private string urlservicio = "http://192.168.0.100/JoresWS/api/producto/";
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        protected async override void OnAppearing()
+        private async void OnSearchClicked(object sender, EventArgs e)
         {
-            base.OnAppearing();
-        }
+            string productCode = ProductCode.Text;
+            string ipserver = ServerAddressEntry.Text;
 
-        private void barra_busqueda_SearchButtonPressed(object sender, EventArgs e)
-        {
-            string codigo = barra_busqueda.Text;
 
-            Buscarproducto(codigo);
-        }
 
-        private async void Buscarproducto(string codigo)
-        {
-            string url = urlservicio;
-            url = url + codigo;
+            string url = "http://" + ipserver + "/JoresWS/api/producto/" + productCode;
+            
+            try
+            {
+                HttpClient cliente = new HttpClient();
+                HttpResponseMessage respuesta = await cliente.GetAsync(url);
+                string respuestastring = await respuesta.Content.ReadAsStringAsync();
 
-            HttpClient cliente = new HttpClient();
-            HttpResponseMessage respuesta = await cliente.GetAsync(url);
-            string respuestastring = await respuesta.Content.ReadAsStringAsync();
-
-            Producto encontrado = JsonConvert.DeserializeObject<Producto>(respuestastring);
-            List<Producto> filtrados = new List<Producto>();
-            filtrados.Add(encontrado);
-
-            MyCollectionView.ItemsSource = filtrados;
+                Producto encontrado = JsonConvert.DeserializeObject<Producto>(respuestastring);
+                if (encontrado.ProductoId != 0)
+                {
+                    ProductDetails.IsVisible = true;
+                    ProductDetails.BindingContext = encontrado;
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Producto no encontrado", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", "No se encuentra el servidor, actualice la dirección IP", "OK");
+            }
         }
     }
+
 }
+
 

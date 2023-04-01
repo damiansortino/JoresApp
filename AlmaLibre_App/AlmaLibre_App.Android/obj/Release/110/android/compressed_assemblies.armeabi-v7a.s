@@ -55,7 +55,7 @@
 
 	/* 3: JoresApp.dll */
 	/* uncompressed_file_size */
-	.long	18944
+	.long	15360
 	/* loaded */
 	.byte	0
 	/* data */
